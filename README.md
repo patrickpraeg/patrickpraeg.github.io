@@ -1,4 +1,7 @@
-![This photo of me was taken by Kayla Schulte. Thanks, Kayla!](2019-05-10 12.47.03 1.jpg)
+<!---![This photo of me was taken by Kayla Schulte. Thanks, Kayla!](2019-05-10 12.47.03 1.jpg)--->
+<img src="2019-05-10 12.47.03 1.jpg" alt="Kitten"
+	title="A cute kitten" width="150" height="100" />
+
 
 I work as a researcher at [Oxford University’s Department of Sociology](https://www.sociology.ox.ac.uk/academic-staff/patrick-praeg.html) and am a Research Fellow at [Nuffield College](https://www.nuffield.ox.ac.uk/people/profiles/patrick-praeg/). I do research on social stratification, social demography, health and wellbeing, and work and family reconciliation. In my work, I mostly use quantitative methods and survey data. I have a PhD from the [ICS/University of Groningen](http://ics-graduateschool.nl/).
 

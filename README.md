@@ -1,5 +1,5 @@
 <!---![This photo of me was taken by Kayla Schulte. Thanks, Kayla!](2019-05-10 12.47.03 1.jpg)--->
-<img src="2019-05-10 12.47.03 1.jpg" alt="Kitten"
+<img src="2019-05-10 12.47.03 1.jpg" align = "left" alt="This photo of me was taken by Kayla Schulte. Thanks, Kayla!"
 	title="A cute kitten" width="150" height="100" />
 
 

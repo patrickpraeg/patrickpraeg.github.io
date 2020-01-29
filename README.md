@@ -1,5 +1,5 @@
 <!---![This photo of me was taken by Kayla Schulte. Thanks, Kayla!](2019-05-10 12.47.03 1.jpg)--->
-<img src="2019-05-10 12.47.03 1.jpg" align = "left" alt="This photo of me was taken by Kayla Schulte. Thanks, Kayla!"
+<img src="2019-05-10 12.47.03 1.jpg" align = "right" alt="This photo of me was taken by Kayla Schulte. Thanks, Kayla!"
 	width="464" height="309" />
 
 
@@ -62,7 +62,7 @@ Below is a list of my [publications](#publications). If you want to find out mor
 
 ## Contact details
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.9240054992815!2d-1.2667738841851541!3d51.75271317967623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c757ec7e4397%3A0x32ecdfb733280012!2sDepartment%20of%20Sociology!5e0!3m2!1sen!2suk!4v1580262564540!5m2!1sen!2suk" width="400" height="300" frameborder="5" style="border:0;" allowfullscreen="" align="left"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.9240054992815!2d-1.2667738841851541!3d51.75271317967623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c757ec7e4397%3A0x32ecdfb733280012!2sDepartment%20of%20Sociology!5e0!3m2!1sen!2suk!4v1580262564540!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" align="right"></iframe>
 
 patrick.prag@sociology.ox.ac.uk
 

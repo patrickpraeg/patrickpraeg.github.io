@@ -360,11 +360,11 @@ window.PUBLICATIONS = [
   { t: "th", a: "Patrick Präg",
     ti: "Social Stratification and Health. Four Essays on the Social Determinants of Health and Wellbeing",
     data: [], m: [],
-    j: "Doctoral thesis, ICS/University of Groningen", d: "",
+    j: "doctoral thesis, ICS/University of Groningen", d: "",
     l: [["pre", "https://doi.org/10.17605/OSF.IO/3RN8M"], ["lib", "https://worldcat.org/isbn/9789462991255", "Library"]] },
   { t: "th", a: "Patrick Präg",
     ti: "Nonresponse to Items on Self-Reported Delinquency. A Review and Evaluation of Missing Data Techniques",
     data: [], m: ["Missing data techniques"],
-    j: "Master’s thesis, University of Hamburg", d: "",
+    j: "master’s thesis, University of Hamburg", d: "",
     l: [["pre", "10.31235/osf.io/y9sv7"]] }
 ];

@@ -16,10 +16,10 @@
     var end = p.j ? "," : ".";
     // *Asterisks* in a title mark italics, e.g. a journal name.
     var ti = esc(p.ti).replace(/\*([^*]+)\*/g, "<i>$1</i>");
-    var s = esc(p.a) + (p.y ? ", " + p.y : "") + ": “" + ti +(/\?$/.test(p.ti) ? "" : end) + "” ";
+    var s = esc(p.a) + (p.y ? ", " + p.y : "") + ": “" + ti + (/\?$/.test(p.ti) ? "" : end) + "” ";
     if (p.pp) s += esc(p.pp) + " in <i>" + esc(p.j) + "</i>" + (p.d ? ", " + esc(p.d) : "") + ".";
-    // Project reports name the project, not a journal, so no italics.
-    else if (p.j && p.t === "pr") s += esc(p.j) + (p.d ? " " + esc(p.d) : "") + ".";
+    // Project reports and theses name a project or university, not a journal, so no italics.
+    else if (p.j && (p.t === "pr" || p.t === "th")) s += esc(p.j) + (p.d ? " " + esc(p.d) : "") + ".";
     else if (p.j) s += "<i>" + esc(p.j) + "</i>" + (p.d ? " " + esc(p.d) : "") + ".";
     var links = p.l.map(function (l) {
       var label = l[2] || (l[0] === "pub" && p.oa ? "Publisher (open access)" : LABEL[l[0]]);

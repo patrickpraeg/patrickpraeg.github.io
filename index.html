@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2NXNBXJL3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y2NXNBXJL3');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patrick Präg</title>
+  <meta name="description" content="Patrick Präg, associate professor of sociology at CREST/ENSAE, Institut Polytechnique de Paris.">
+  <link rel="stylesheet" href="assets/style.css?v=10">
+</head>
+<body>
+  <main>
+    <header>
+      <img class="photo" src="assets/photo.jpg" alt="Patrick Präg" width="1280" height="852">
+      <h1>Patrick Präg</h1>
+      <nav>
+        <a href="#publications">Publications</a> ·
+        <a href="#contact">Contact</a> ·
+        <a href="https://scholar.google.com/citations?user=MW-rFm4AAAAJ">Google Scholar</a> ·
+        <a href="https://osf.io/euzd6/">OSF</a>
+      </nav>
+    </header>
+
+    <section>
+      <p>
+        I work as an associate professor of sociology at
+        <a href="https://crest.science/user/Patrick-PRAG/">CREST</a>/<a href="https://www.ensae.fr/en/faculty/4685-patrick-prag">ENSAE</a>,
+        am a faculty member of the department of economics at
+        <a href="https://econ.ip-paris.fr/">Institut Polytechnique de Paris</a>,
+        and I’m an associate member of Oxford University’s
+        <a href="https://www.nuffield.ox.ac.uk/">Nuffield College</a>.
+      </p>
+      <p>
+        I do research on social stratification, social demography, health and wellbeing,
+        and work and family reconciliation. In my work, I mostly use quantitative methods and survey data.
+        I have a PhD from the <a href="http://ics-graduateschool.nl/">ICS/University of Groningen</a>.
+      </p>
+      <p>
+        Elsewhere: a <a href="http://statafun.blogspot.com/">collection of Stata commands</a> I have found useful at some point,
+        and a <a href="https://www.goodreads.com/patrickbysseshelley">collection of book reviews</a> I wrote.
+      </p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="filters">
+        <input id="q" type="search" placeholder="Search" aria-label="Search publications">
+        <select id="fdata" aria-label="Filter by data"><option value="">All data</option></select>
+        <select id="fmeth" aria-label="Filter by method"><option value="">All methods</option></select>
+      </p>
+      <p class="filters"><span id="tabs"></span></p>
+      <p id="count" class="count"></p>
+      <div id="list"></div>
+      <p id="empty" hidden>No publications match your search.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="where">
+        <address>
+          <a href="mailto:patrick.prag@ensae.fr">patrick.prag@ensae.fr</a><br><br>
+          Center for Research in Economics and Statistics (CREST)<br>
+          École nationale de la statistique et de l’administration économique (ENSAE)<br>
+          Institut Polytechnique de Paris<br>
+          5 avenue Le Chatelier<br>
+          91764 Palaiseau, France
+        </address>
+        <iframe class="map" title="Map: CREST, 5 avenue Le Chatelier, Palaiseau"
+          src="https://maps.google.com/maps?q=5%20avenue%20Le%20Chatelier%2C%2091120%20Palaiseau%2C%20France&amp;z=15&amp;output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/publications.js?v=10"></script>
+  <script src="assets/app.js?v=10"></script>
+</body>
+</html>

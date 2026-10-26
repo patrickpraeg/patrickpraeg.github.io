@@ -319,7 +319,7 @@ window.PUBLICATIONS = [
 
   /* ---------- Editorials ---------- */
   { t: "ed", y: 2025, a: "Patrick Präg, Alexi Gugushvili, and Evelyn Ersanilli", oa: 1,
-    ti: "Transforming European Societies Through Open Access and Transparency",
+    ti: "Transforming *European Societies* Through Open Access and Transparency",
     data: [], m: [],
     j: "European Societies", d: "27 (1), pp. 1–3",
     l: [["pub", "10.1162/euso_e_00025"], ["pre", "10.31235/osf.io/nuefj_v1"]] },

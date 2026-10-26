@@ -14,7 +14,9 @@
   function pubHtml(p) {
     // Titles ending in "?" take no extra punctuation.
     var end = p.j ? "," : ".";
-    var s = esc(p.a) + (p.y ? ", " + p.y : "") + ": “" + esc(p.ti) + (/\?$/.test(p.ti) ? "" : end) + "” ";
+    // *Asterisks* in a title mark italics, e.g. a journal name.
+    var ti = esc(p.ti).replace(/\*([^*]+)\*/g, "<i>$1</i>");
+    var s = esc(p.a) + (p.y ? ", " + p.y : "") + ": “" + ti +(/\?$/.test(p.ti) ? "" : end) + "” ";
     if (p.pp) s += esc(p.pp) + " in <i>" + esc(p.j) + "</i>" + (p.d ? ", " + esc(p.d) : "") + ".";
     // Project reports name the project, not a journal, so no italics.
     else if (p.j && p.t === "pr") s += esc(p.j) + (p.d ? " " + esc(p.d) : "") + ".";
@@ -33,7 +35,7 @@
     if (state.data && (p.data || []).indexOf(state.data) < 0) return false;
     if (state.m && (p.m || []).indexOf(state.m) < 0) return false;
     if (!state.q) return true;
-    var hay = [p.a, p.ti, p.j || "", p.y || "", (p.data || []).join(" "), (p.m || []).join(" ")].join(" ").toLowerCase();
+    var hay = [p.a, p.ti.replace(/\*/g, ""),p.j || "", p.y || "", (p.data || []).join(" "), (p.m || []).join(" ")].join(" ").toLowerCase();
     return state.q.toLowerCase().split(/\s+/).every(function (w) { return hay.indexOf(w) > -1; });
   }
 

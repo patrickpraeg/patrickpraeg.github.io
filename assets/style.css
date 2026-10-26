@@ -1,0 +1,55 @@
+:root {
+  --bg: #fff;
+  --text: #222;
+  --muted: #666;
+  --link: #1a4fa0;
+  --line: #ddd;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161616; --text: #e6e6e6; --muted: #9a9a9a; --link: #8ab4f8; --line: #333; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 Georgia, "Times New Roman", serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+a { color: var(--link); }
+h1 { font-size: 2rem; font-weight: normal; margin: 0; }
+h2 { font-size: 1.35rem; font-weight: normal; margin: 48px 0 16px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.05rem; font-weight: bold; margin: 32px 0 8px; }
+.sub { color: var(--muted); margin: 4px 0 12px; }
+nav { font-size: 0.95rem; margin-top: 10px; }
+header { margin-bottom: 32px; }
+.photo { display: block; width: 100%; max-width: 420px; height: auto; margin-bottom: 24px; }
+.where { display: flex; gap: 24px; align-items: flex-start; }
+.where address { flex: 1 1 0; min-width: 0; }
+.where address a { color: inherit; }
+.map { display: block; flex: 1 1 0; min-width: 0; height: 260px; border: 1px solid var(--line); }
+@media (max-width: 600px) {
+  .where { flex-direction: column; }
+  .map { width: 100%; flex: none; }
+}
+address { font-style: normal; color: var(--muted); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 0.95rem; }
+.filters input, .filters select {
+  font: inherit; padding: 4px 8px; max-width: 100%;
+  color: var(--text); background: var(--bg); border: 1px solid var(--line);
+}
+.filters input { width: 200px; }
+.count { color: var(--muted); font-size: 0.9rem; }
+#tabs button {
+  font: inherit; padding: 0; background: none; border: 0; cursor: pointer;
+  color: var(--link); text-decoration: underline;
+}
+#tabs button[aria-pressed="true"] { color: var(--text); text-decoration: none; font-weight: bold; }
+#tabs span { color: var(--muted); }
+
+.pub { margin: 0 0 14px; }
+.pub .links { font-size: 0.9rem; }
+.pub .links a { margin-right: 0.9em; }
+.pub .note { color: var(--muted); font-size: 0.9rem; }

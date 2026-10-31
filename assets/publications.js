@@ -236,7 +236,7 @@ window.PUBLICATIONS = [
     ti: "Social Contacts of Older People in 27 European Countries. The Role of Welfare Spending and Economic Inequality",
     data: ["European Social Survey (ESS)", "Eurostat statistics"], m: ["Multilevel models"],
     j: "European Sociological Review", d: "30 (4), pp. 413–430",
-    l: [["pub", "10.1093/esr/jcu046"]] },
+    l: [["pre", "10.31235/osf.io/xakfg_v1"], ["pub", "10.1093/esr/jcu046"]] },
   { t: "ja", y: 2014, a: "Barbara Beham, Sonja Drobnič, and Patrick Präg",
     ti: "The Work–Family Interface of Service Sector Workers. A Comparison of Work Resources and Professional Status Across Five European Countries",
     data: ["QUALITY survey"], m: ["Multilevel models"],
